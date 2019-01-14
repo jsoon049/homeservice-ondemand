@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/login_pic"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="50dp"
+        android:gravity="center_vertical|fill_vertical"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/userName_Field"
+            android:layout_width="289dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:ems="10"
+            android:gravity="center_horizontal|center"
+            android:hint="Enter your username"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/black"
+            android:textColorLink="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/userName_View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:gravity="center"
+            android:text="Username"
+            android:textColor="@android:color/black" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="50dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/password_Field"
+            android:layout_width="289dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:ems="10"
+            android:gravity="center_vertical|center_horizontal"
+            android:hint="Enter your password"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/password_View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="Password"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="277dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="230dp"
+        android:background="@color/colorPrimary"
+        android:text="Login"
+        android:textColor="@android:color/black"
+        android:textColorLink="@color/colorPrimaryDark"
+        android:textSize="18sp" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="219dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="160dp"
+        android:background="@color/colorPrimary"
+        android:text="New User? Register here"
+        android:onClick="onClick"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+</RelativeLayout>

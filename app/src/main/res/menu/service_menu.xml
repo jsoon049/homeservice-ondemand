@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Profile"
+        android:id="@+id/profile"
+        android:icon="@drawable/service_menu"
+        app:showAsAction="never"/>
+    <item
+        android:title="Add Service"
+        android:id="@+id/service"
+        android:icon="@drawable/service_menu"
+        app:showAsAction="never"/>
+
+</menu>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeowner"
+        android:title="Home Owner"
+        android:contentDescription="USER"/>
+
+    <item
+        android:id="@+id/serviceProvider"
+        android:title="Service Provider"
+        android:contentDescription="PROV"/>
+
+    <item
+        android:id="@+id/admin"
+        android:title="Admin"
+        android:contentDescription="ADMIN"/>
+</menu>
